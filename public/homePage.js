@@ -95,7 +95,7 @@ favoritesWidget.removeUserCallback = function (data) {
             moneyManager.updateUsersList(response.data);
             favoritesWidget.setMessage(response.success, "Пользователь удален");
         } else {
-            favoritesWidget.setMessage(response.success, response.error);;
+            favoritesWidget.setMessage(response.success, response.error);
         };
     });
 }
